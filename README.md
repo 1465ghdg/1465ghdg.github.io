@@ -1,1 +1,1 @@
-这是一个目前还不知道要用来干什么的博客，使用[hexo](https://hexo.io/)作为框架
+这是一个目前还不知道要用来干什么的博客,使用[hexo](https://hexo.io/)作为框架,[Redefine](https://github.com/EvanNotFound/hexo-theme-redefine)作为主题.
