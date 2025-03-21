@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: 1465ghdg's Blog
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle: 
   # Author name
-  author: The Redefine Team
+  author: 1465ghdg
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://1465ghdg.github.io/blog
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -41,7 +41,7 @@ colors:
   # Secondary color (TBD)
   secondary:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
-  default_mode: light # light, dark
+  default_mode: dark # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -170,11 +170,11 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
+      github: https://github.com/1465ghdg # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: 1405463176@qq.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
