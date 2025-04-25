@@ -29,7 +29,7 @@ defaults:
   # Site logo
   logo: 
   # Site avatar
-  avatar: /source/images/my-avatar.jpg
+  avatar: /images/my-avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
