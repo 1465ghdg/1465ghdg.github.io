@@ -4,9 +4,9 @@
 
 # Site
 title: 1465ghdg's Blog
-subtitle: ''
-description: 'This is a blog.'
-keywords:
+subtitle:
+description: "1465ghdg's blog."
+keywords: '1465ghdg, blog'
 author: 1465ghdg
 language: zh-cn
 timezone: 'Asia/Shanghai'
@@ -103,3 +103,6 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# all-minifier 
+all_minifier: true

@@ -68,3 +68,11 @@ ___
 | John | 18 | male |
 | Mary | 20 | female |
 | Bob | 25 | male |
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
