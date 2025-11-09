@@ -1,0 +1,8 @@
+- links_category: Normal
+  has_thumbnail: false
+  list:
+    - name: Facvoid's blog
+      link: https://blog-facvoid.neko-nya.top/
+      description: None
+      avatar: https://avatars.githubusercontent.com/u/85226744
+      thumbnail:

@@ -201,28 +201,31 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    Tags:
-      icon: fa-solid fa-tags
-      path: /tags/
-    Categories:
-      icon: fa-solid fa-folder
-      path: /categories/
-    # Archives:
-    #   path: /archives
-    #   icon: fa-regular fa-archive # can be empty
-    # Status:
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
-    # About:
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
+      # Tags:
+      #   icon: fa-solid fa-tags
+      #   path: /tags/
+      # Categories:
+      #   icon: fa-solid fa-folder
+      # path: /categories/
+      # Archives:
+      #   path: /archives
+      #   icon: fa-regular fa-archive # can be empty
+      # Status:
+      #   path: https://status.ohevan.com/
+      #   icon: fa-regular fa-chart-bar
+    About:
+      icon: fa-regular fa-user
+      submenus:
+        Me: /about
+        # Github: https://github.com/EvanNotFound/hexo-theme-redefine
+        # Blog: https://ohevan.com
+        Friends: /friends
     # Links:
     #   icon: fa-regular fa-link
     #   submenus:
+    #     Friends:
+    #       icon: fa-solid fa-link
+    #       path: /links/
     #     Link1: /link1
     #     Link2: /link2
     #     Link3: /link3
@@ -230,7 +233,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
