@@ -23,11 +23,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://avatars.githubusercontent.com/u/177911758
+  favicon: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
   # Site logo
-  logo: https://avatars.githubusercontent.com/u/177911758
+  logo: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
   # Site avatar
-  avatar: https://avatars.githubusercontent.com/u/177911758
+  avatar: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
