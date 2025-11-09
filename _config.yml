@@ -104,5 +104,5 @@ theme: redefine
 deploy:
   type: ""
 
-# all-minifier 
+# all-minifier
 all_minifier: true
