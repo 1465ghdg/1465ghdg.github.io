@@ -23,11 +23,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
+  favicon: https://objectstorage.1465ghdg.neko-nya.top/7m66a7yw-blogresources/Creeper.jpg
   # Site logo
-  logo: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
+  logo:
   # Site avatar
-  avatar: https://objectstorageapi.ap-northeast-1.clawcloudrun.com/7m66a7yw-blogresources/Creeper.jpg
+  avatar: https://objectstorage.1465ghdg.neko-nya.top/7m66a7yw-blogresources/Creeper.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -213,6 +213,9 @@ navbar:
       # Status:
       #   path: https://status.ohevan.com/
       #   icon: fa-regular fa-chart-bar
+    # Photo:
+    #   icon: fa-solid fa-image
+    #   path: /masonry/
     About:
       icon: fa-regular fa-user
       submenus:
@@ -251,13 +254,19 @@ home:
     links:
       # Archives:
       #   path: /archives
-      #   icon: fa-regular fa-archive # can be empty
+      #   icon: fa-regular fa-archive
       # Tags:
       #   path: /tags
-      #   icon: fa-regular fa-tags # can be empty
+      #   icon: fa-regular fa-tags
       # Categories:
       #   path: /categories
-      #   icon: fa-regular fa-folder # can be empty
+      #   icon: fa-regular fa-folder
+      Status:
+        icon: fa-regular fa-chart-bar
+        path: https://stats.uptimerobot.com/yaIsJtysx4
+      Photos:
+        icon: fa-regular fa-image
+        path: /masonry/
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -480,3 +489,11 @@ developer:
   # Whether to enable developer mode (only for developers who want to modify the theme source code, not for ordinary users)
   enable: false
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to every page
+  every_page: false # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
