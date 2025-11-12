@@ -1,8 +1,8 @@
-- links_category: Normal
+- links_category: Close Friends
   has_thumbnail: false
   list:
-    - name: Facvoid's blog
+    - name: Delta Facvoid's blog
       link: https://blog-facvoid.neko-nya.top/
-      description: None
+      description: NULL
       avatar: https://avatars.githubusercontent.com/u/85226744
       thumbnail:
